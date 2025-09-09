@@ -1,0 +1,36 @@
+name: flutterlingo
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  uuid: ^4.5.1
+  isar:
+    hosted: https://pub.isar-community.dev
+    version: 3.1.8
+  isar_flutter_libs:
+    hosted: https://pub.isar-community.dev
+    version: 3.1.8
+
+
+  path_provider: ^2.1.4
+  intl: ^0.20.2
+  google_mlkit_digital_ink_recognition: ^0.14.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: any
+  isar_generator:
+    hosted: https://pub.isar-community.dev
+    version: 3.1.8
+
+flutter:
+  uses-material-design: true
