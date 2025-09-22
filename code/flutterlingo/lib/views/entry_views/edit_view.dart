@@ -19,7 +19,7 @@ class _EditViewState extends State<EditView> {
   late TextEditingController textController;
   late String currentLanguage;
 
-  final List<String> supportedLanguages = ['en-US', 'es-ES', 'fr-FR'];
+  final List<String> supportedLanguages = ['en-US', 'es-ES', 'fr-FR', 'ko', 'zh-Hani'];
 
   @override
   void initState() {
